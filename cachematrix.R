@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) {
   set<-function(y) {
     x<<-y
     CI<<-NULL
-    }
+  }
   get<-function() x
   SI<-function(inv) CI<<-inv
   GI<-function() CI
